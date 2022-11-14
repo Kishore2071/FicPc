@@ -1,0 +1,54 @@
+body{
+    background: url("/images/bg.jpg") fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.black{
+    height: 400px;
+    background: black;
+    margin-top: 13%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.8;
+    padding-top: 80px;
+}
+
+@media(min-width:425px){
+    .black{
+        background: red;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:768px){
+    .black{
+        background: pink;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:1024px){
+    .black{
+        background: black;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 30px;
+    }
+}
