@@ -4,4 +4,3 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f1c57c0f5.js" crossorigin="anonymous"></script>
-    <script src="../js/script.js"></script>

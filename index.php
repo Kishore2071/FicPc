@@ -3,7 +3,7 @@
     <head>
         <title>Landing Page</title>
         <?php include_once "_templates/headlink.php"; ?>
-        <script src="../js/script.js"></script>
+        
     </head>
     <body>
         <?php include_once "_templates/navbar.php"; ?>
@@ -16,6 +16,7 @@
         </div>
         
         <?php include_once "_templates/b4jq.php"; ?>
+        
         
         
     </body>
