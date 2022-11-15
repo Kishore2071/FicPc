@@ -1,0 +1,13 @@
+.cdiv{
+    height: 450px;
+}
+
+.rl{
+    text-decoration: none;
+    color: #fff;
+
+}
+a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+}

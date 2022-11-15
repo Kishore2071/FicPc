@@ -1,0 +1,18 @@
+.cdiv{
+    height: 550px;
+    margin-top: 10%;
+}
+
+.rl{
+    text-decoration: none;
+    color: #fff;
+
+}
+a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+button{
+    margin-top: 30px;
+}

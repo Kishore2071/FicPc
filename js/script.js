@@ -1,13 +1,13 @@
 function myFunction() {
           var url = window.location.pathname;
           var filename = url.substring(url.lastIndexOf('/')+1);
-          if(filename=="index.php"){
+          console.log("started");
+            if(filename=="index.php"){
                 function myFunction() {
                     var element = document.getElementById("home");
                     element.classList.add("active");
                 }
                 myFunction();
-
             }else if(filename=="signin.php"){
                 function myFunction() {
                     var element = document.getElementById("signin");
@@ -20,7 +20,24 @@ function myFunction() {
                     element.classList.add("active");
                 }
                 myFunction();
+            }else if(filename=="aboutus.php"){
+                function myFunction() {
+                    var element = document.getElementById("about");
+                    element.classList.add("active");
+                }
+                myFunction();
+            }else if(filename=="contact.php"){
+                function myFunction() {
+                    var element = document.getElementById("contact");
+                    element.classList.add("active");
+                }
+                myFunction();
+            }else{
+                function myFunction() {
+                    var element = document.getElementById("home");
+                    element.classList.add("active");
+                }
+                myFunction();
             }
-            
 }
 myFunction();
